@@ -473,3 +473,49 @@
 .foto_single2{
         border-radius: 10px;
 }
+
+.texto-azul{
+    color: #9283E0;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 58px; /* 241.667% */
+    letter-spacing: -0.15px;
+}
+
+.señor{
+    background: url(/assets/icons/583347ca8f6c7ee058111c91_me.png), lightgray 0px 0px / 100% 100% no-repeat;
+    border-radius: 50px;
+}
+
+.tomas{
+    color: #111210;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px; /* 255.556% */
+    letter-spacing: -0.112px;
+}
+
+.follow-me{
+    color: #4A4A4A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
